@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>FAQ Section</title>
+<style>
+body {
+font-family: 'Roboto', sans-serif;
+margin: 40px;
+}
+.faq-section {
+max-width: 800px;
+margin: auto;
+background: #fff;
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.faq-title {
+text-align: center;
+font-size: 28px;
+margin-bottom: 20px;
+}
+.faq-item {
+margin-bottom: 20px;
+}
+.faq-question {
+cursor: pointer;
+padding: 15px;
+background-color: #eee;
+border-radius: 5px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.faq-question:hover {
+background-color: #ddd;
+}
+.faq-answer {
+display: none;
+padding: 15px;
+border-left: 4px solid #0b8449;
+margin-top: 5px;
+border-radius: 5px;
+}
+.faq-item.open .faq-answer {
+display: block;
+}
+</style>
+</head>
+<body>
+<div class="faq-section">
+<div class="faq-item"><div class="faq-question">What software do I need to open and use the spreadsheet templates?</div><div class="faq-answer">The software to use should be noted on the product page. For example, the product page may list "Google Sheets" or "Microsoft Excel".</div></div><div class="faq-item"><div class="faq-question">How do I download the Spreadsheet?</div><div class="faq-answer">After checkout, you will have the option to download your files. You should also receive an email with a download link. Please check your Spam or Junk folder if it does not appear in your Inbox.
+
+The files you receive will be PDFs, you can find the Google Sheets and Excel links on page 5 and 6.
+
+Simply click on your desired currency to load the sheet.
+
+If you cannot locate your file or are having trouble, please contact us.</div></div><div class="faq-item"><div class="faq-question">I'm new to using spreadsheets. How do I get started, and where can I find guidance?</div><div class="faq-answer">Spreadsheets are helpful tools used to organize, analyze, and visualize data. For some general guidance and learning resources, you might try exploring: Google Sheets Help Center and Microsoft Excel Training Center. You may also consider other online learning platforms via Coursera, LinkedIn Learning, or Khan Academy.
+
+</div></div><div class="faq-item"><div class="faq-question">WIll these spreadsheet templates be updated? </div><div class="faq-answer">Spreadsheets may be updated to offer better functionality and usability and will continue to be available at no additional cost.</div></div><div class="faq-item"><div class="faq-question">How do I collaborate on my version of the template with someone else?</div><div class="faq-answer">In Google Sheets, Click the Share button in the top right. You can enter their email address or click “Copy link” and choose their access level (Viewer, Commenter, or Editor).</div></div><div class="faq-item"><div class="faq-question">Can I use the template on my phone or tablet?</div><div class="faq-answer">You should be able to open and edit Google Sheets templates using the Google Sheets app for Android or iOS. Some features may be limited compared to the desktop version.</div></div><div class="faq-item"><div class="faq-question">What is your exchange or return policy?</div><div class="faq-answer">Due to the nature of this software, we generally do not offer exchanges or refunds after purchasing a template. If you experience errors when using this sheet, please let us know.</div></div><div class="faq-item"><div class="faq-question">Can I resell your templates?</div><div class="faq-answer">Our products are strictly for personal use only, no commercial rights are given for reselling.</div></div><div class="faq-item"><div class="faq-question">Can I adjust the colors, font, or layout?</div><div class="faq-answer">You can try making visual adjustments needed. However, some functionality, such as conditional formatting, may be affected. We recommend making a copy of the spreadsheet and applying those type of edits directly on this copy.</div></div><div class="faq-item"><div class="faq-question">Do you have other layouts available?</div><div class="faq-answer">If you'd like a more custom layout or presentation, we may be able to provide this support. Feel free to reach out to the support team by filling out this request form.</div></div><div class="faq-item"><div class="faq-question">Which cells am I allowed to edit without breaking the template?</div><div class="faq-answer">Non-editable cells that are automated or have built-in formulas are usually grayed out. It is generally advised to avoid changing cells with formulas.</div></div><div class="faq-item"><div class="faq-question">Why am I seeing a #DIV/0! or #VALUE! error in the spreadsheet?</div><div class="faq-answer">[ #DIV/0! ] may appear when the formula in the cell tries to divide by zero. Other errors such as [ #VALUE! ] may appear when the formula uses the wrong type of input (e.g., text instead of numbers). It is recommended to review your input and make sure required fields are filled in correctly.
+
+</div></div><div class="faq-item"><div class="faq-question">How do I protect certain cells or sheets from being edited by mistake?</div><div class="faq-answer">In Google Sheets: Right-click on the tab → Protect Sheet → Set permissions.
+In Excel: Select the cells you want to allow editing → Format Cells → Protection → Uncheck “Locked” → Then protect the sheet via Review → Protect Sheet.</div></div><div class="faq-item"><div class="faq-question">How do I add more rows or columns to the spreadsheet?</div><div class="faq-answer">Typically, the template should provide amples rows/columns for the average use. If you're a more advanced user, or know that you'd like to add more rows and columns, simply right-click on the row number or column letter where you want to insert → Choose Insert row above/below or Insert column left/right. Not that some functionality may be affected, so you may want to make a copy to use as a test environment.</div></div><div class="faq-item"><div class="faq-question">Can I undo a change if I make a mistake?</div><div class="faq-answer">Yes. Press Ctrl+Z (or Cmd+Z on Mac), or click Edit > Undo. In Google Sheets, you can also try using File > Version history to restore earlier versions.</div></div><div class="faq-item"><div class="faq-question">Is there a way to get notifications if someone else (with access) edits the spreadsheet?</div><div class="faq-answer">Yes. Go to Tools > Notification settings, then choose to be notified when changes are made or when someone submits a form (if linked to one).</div></div><div class="faq-item"><div class="faq-question">What should I do if I accidentally delete something important?</div><div class="faq-answer">Use Undo (Ctrl+Z or Cmd+Z) immediately. In Google Sheets, you may also try going to File > Version history > See version history to restore a previous version of the spreadsheet.</div></div>
+</div>
+<script>
+// Toggle FAQ answers
+const faqItems = document.querySelectorAll('.faq-item');
+faqItems.forEach(item => {
+item.querySelector('.faq-question').addEventListener('click', () => {
+item.classList.toggle('open');
+});
+});
+</script>
+</body>
+</html>
